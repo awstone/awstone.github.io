@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://engineering.buffalo.edu/computer-science-engineering.html'>Department of Computer Science and Engineering, University at Buffalo</a>. 338 Davis Hall Buffalo, New York 14260.
+subtitle: <a href='https://engineering.buffalo.edu/computer-science-engineering.html'>Department of Computer Science and Engineering, University at Buffalo</a>. 338 Davis Hall, Buffalo, New York 14260.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>113V Davis Hall</p>
+    <p>Buffalo, New York, 14260</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
