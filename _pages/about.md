@@ -7,7 +7,7 @@ subtitle: <a href='https://engineering.buffalo.edu/computer-science-engineering.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>113V Davis Hall</p>
     <p>Buffalo, New York, 14260</p>
