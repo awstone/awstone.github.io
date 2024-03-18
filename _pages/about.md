@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://engineering.buffalo.edu/computer-science-engineering.html'>Department of Computer Science and Engineering, University at Buffalo</a>. 338 Davis Hall Buffalo, New York 14260.
 
 profile:
   align: right
