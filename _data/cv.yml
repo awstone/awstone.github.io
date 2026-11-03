@@ -1,97 +1,128 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Computer Science
+      institution: University at Buffalo, SUNY
+      year: 2020–now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Fall 2020–present.
+        - Presidential Fellowship.
+    - title: BS, Computer Science
+      institution: University at Buffalo, SUNY
+      year: 2016–2019
       description:
-        - Description 1.
-        - Description 2.
+        - Fall 2016–Fall 2019.
+        - Provost Scholarship.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Center for Unified Biometrics and Sensors, University at Buffalo
+      year: 2023–now
+      location: Amherst, NY
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - March 2023–present.
+        - Conceptualized and developed a proof of concept for vision-language childhood educational material as part of the AI4ExceptionalEd Institute.
+        - Worked with large language models, large vision-language models, text-to-image models, and prompt engineering to create factually accurate, reliable, and safe vision-language material for childhood education.
+        - Research objectives include methods for generating complex scene images with many compositional elements, and systematic evaluation of hallucination in text-to-image generation.
+
+    - title: Machine Learning Engineer Intern
+      institution: ACV Auctions Inc.
+      year: 2021–now
+      location: Buffalo, NY
       description:
-        - Description 1.
-        - Description 2.
+        - May 2021–present.
+        - Developed deep learning computer vision models from conceptualization and dataset creation through experimentation and production deployment. Some of this work is included in an upcoming US patent application.
+        - Created a model that classifies vehicle interior damage from images, using multi-label classification from up to 20 photos per vehicle with weak vehicle-level annotations.
+        - Devised a method for missing-object detection on vehicle undercarriage images to identify and localize missing tailpipe emissions equipment such as catalytic converters.
+        - Developed a model to classify structural rust and frame rot from multiple undercarriage images using weak vehicle-level annotations.
+        - Implemented a model that classifies image-stitching reconstruction errors in motor vehicle undercarriage scans, so inspectors can fix the scanning system.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Graduate Research Assistant
+      institution: Research Engineering Laboratory for Advanced Computational Science, University at Buffalo
+      year: 2019–2023
+      location: Amherst, NY
       description:
+        - December 2019–March 2023.
+        - Developed a method to solve multiscale partial differential equations with neural networks, based on the localized orthogonal decomposition method for numerical homogenization. Presented at the SIAM Conference on Computational Science and Engineering, 2023.
+        - Worked on a proof of dimension-independent approximation rates for Lipschitz continuous functions using deep neural networks with ReLU activations, based on a modified Kolmogorov superposition theorem.
+        - Explored the feasibility of Lipschitz continuous reparameterizations for the inner function of the Kolmogorov superposition theorem.
+        - Created an efficient C implementation of the Kolmogorov superposition theorem for dimension reduction.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Undergraduate Research Assistant
+      institution: Center for Unified Biometrics and Sensors, University at Buffalo
+      year: 2017–2019
+      location: Amherst, NY
+      description:
+        - September 2017–December 2019.
+        - Adapted deep learning text detection algorithms for handwritten whiteboard lecture video content.
+        - Keyframe-based whiteboard lecture video summarization via spatio-temporal conflict minimization.
+        - Object-based whiteboard lecture video summarization using deep learning handwritten text detection.
+        - Conference paper presentation video search using deep learning text detection.
+        - Occlusion and deocclusion for augmented reality.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Data Science Engineering Intern
+      institution: Valuecentric, IQVIA
+      year: 2019
+      location: Orchard Park, NY
+      description:
+        - May 2019–August 2019.
+        - Built a machine learning model to monitor specialty pharmaceutical patient journeys.
+        - Different aspects of the model used random forests, XGBoost, multilayer perceptrons, and LSTMs.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Undergraduate Research Assistant
+      institution: Sensors and Micro-Actuators Learning Lab, University at Buffalo
+      year: 2017–2019
+      location: Amherst, NY
+      description:
+        - September 2017–May 2019.
+        - Post-processing effects on 3D printed dynamic models created with additive manufacturing.
+        - iPhone X Face ID spoofing using a modified 3D printed face, a single facial photograph, and deep learning face modeling.
+        - Benchmarking ultrasonic imaging equipment via the modulation transfer function, using microfluidic test targets.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Peer-reviewed papers are listed on the <a href="/publications/">publications page</a>.
+
+- title: Talks
+  type: time_table
+  contents:
+    - title: Machine Learning Methods for Numerical Homogenization
+      institution: SIAM Conference on Computational Science and Engineering
+      year: 2023
+      description:
+        - With Matthew Knepley.
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Teaching Assistant, CSE 191
+      institution: Introduction to Discrete Structures, University at Buffalo
+      year: 2019
+      description:
+        - Spring 2019.
+    - title: Teaching Assistant, CSE 116
+      institution: Introduction to Computer Science II, University at Buffalo
+      year: 2018
+      description:
+        - Fall 2018.
+
+- title: Honors and Awards
+  type: list
+  contents:
+    - Best Undergraduate Research Award, 2020, Department of Computer Science and Engineering, University at Buffalo.
+    - Best Undergraduate Teaching Award, 2019, Department of Computer Science and Engineering, University at Buffalo.
+    - Barbara and Jack Davis Engineering Education Endowment Fund Scholarship.
+    - Issac Waugh Memorial Scholarship.
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming and scripting
+      items:
+        - Python, C, Cython, C++, LaTeX, Java, OCaml, Coq, SQL, Bash.
+    - title: Software and libraries
+      items:
+        - PyTorch, PETSc, Pandas, NumPy, OpenCV, scikit-learn, Matplotlib.

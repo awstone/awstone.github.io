@@ -1,6 +1,23 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#6b3fa0"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IJDAR":
+  url: https://link.springer.com/journal/10032
+  color: "#0b6e4f"
+
+"ICPR":
+  url: https://iapr.org/
+  color: "#1a5276"
+
+"ICDARW":
+  url: https://iapr.org/
+  color: "#1f4e79"
+
+"ICFHR":
+  url: https://iapr.org/
+  color: "#24516b"
+
+"TechConnect":
+  url: https://briefs.techconnect.org/
+  color: "#8a5a00"

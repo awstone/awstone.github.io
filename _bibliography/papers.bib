@@ -1,42 +1,118 @@
 ---
 ---
 
+@inproceedings{jawade2024proxyfusion,
+  title = {ProxyFusion: Face Feature Aggregation Through Sparse Experts},
+  author = {Jawade, Bhavin and Stone, Alexander and Mohan, Deen Dayal and Wang, Xiao and Setlur, Srirangaraj and Govindaraju, Venu},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2024},
+  abbr = {NeurIPS},
+  selected = {true},
+  bibtex_show = {true},
+  html = {https://openreview.net/forum?id=FIs87Iro9j},
+  pdf = {https://proceedings.neurips.cc/paper_files/paper/2024/file/81f554467f27759e88de14ba2fbafb47-Paper-Conference.pdf},
+  code = {https://github.com/bhavinjawade/ProxyFusion},
+  website = {https://bhavinjawade.github.io/proxyfusion_ub/},
+  abstract = {Face feature fusion is needed for robust recognition when not every frame of a long-range, low-resolution video is equally informative. ProxyFusion selects a sparse set of pooling experts with learnable proxies and aggregates a variable-size set of face features in linear time. The method is order-invariant, does not need intermediate feature maps or extra face metadata, and can run on legacy biometric templates. Evaluations on IARPA BTS3.1 and DroneSURF show gains for unconstrained long-range face recognition.}
+}
+
+@article{urala2019generalized,
+  title = {Generalized Framework for Summarization of Fixed-Camera Lecture Videos by Detecting and Binarizing Handwritten Content},
+  author = {Urala Kota, Bhargava and Davila, Kenny and Stone, Alexander and Setlur, Srirangaraj and Govindaraju, Venu},
+  journal = {International Journal on Document Analysis and Recognition (IJDAR)},
+  volume = {22},
+  number = {3},
+  pages = {221--233},
+  year = {2019},
+  publisher = {Springer},
+  doi = {10.1007/s10032-019-00327-y},
+  abbr = {IJDAR},
+  selected = {true},
+  bibtex_show = {true},
+  pdf = {https://par.nsf.gov/servlets/purl/10113241},
+  abstract = {A framework for extracting and binarizing handwritten content in fixed-camera lecture videos, so the content can be used to index and navigate the video. A deep learning pipeline detects handwritten text, formulae, and sketches, and the spatio-temporal structure of those detections is used to segment the lecture. On the AccessMath dataset the framework reaches an F-measure of 94.32 percent for binary connected components.}
+}
+
 @inproceedings{kota2019summarizing,
-  title={Summarizing lecture videos by key handwritten content regions},
-  author={Kota, Bhargava Urala and Ahmed, Saleem and Stone, Alexander and Davila, Kenny and Setlur, Srirangaraj and Govindaraju, Venu},
-  booktitle={2019 International conference on document analysis and recognition workshops (ICDARW)},
-  volume={4},
-  pages={13--18},
-  year={2019},
-  organization={IEEE}
+  title = {Summarizing Lecture Videos by Key Handwritten Content Regions},
+  author = {Kota, Bhargava Urala and Ahmed, Saleem and Stone, Alexander and Davila, Kenny and Setlur, Srirangaraj and Govindaraju, Venu},
+  booktitle = {2019 International Conference on Document Analysis and Recognition Workshops (ICDARW)},
+  volume = {4},
+  pages = {13--18},
+  year = {2019},
+  organization = {IEEE},
+  doi = {10.1109/ICDARW.2019.30058},
+  abbr = {ICDARW},
+  selected = {true},
+  bibtex_show = {true},
+  pdf = {https://par.nsf.gov/servlets/purl/10188708},
+  note = {Best paper award},
+  abstract = {Whiteboard lecture videos are summarized by key handwritten content regions. A detector finds semantically meaningful groups of handwriting, and a triplet-loss embedding distinguishes unique content across frames. A spatiotemporal index maps each summary region back to where it appears in the video. On AccessMath the method recalls 92.09 percent of unique ground-truth objects.}
+}
+
+@inproceedings{kota2021automated,
+  title = {Automated Whiteboard Lecture Video Summarization by Content Region Detection and Representation},
+  author = {Kota, Bhargava Urala and Stone, Alexander and Davila, Kenny and Setlur, Srirangaraj and Govindaraju, Venu},
+  booktitle = {2020 25th International Conference on Pattern Recognition (ICPR)},
+  pages = {10704--10711},
+  year = {2021},
+  organization = {IEEE},
+  doi = {10.1109/ICPR48806.2021.9412386},
+  abbr = {ICPR},
+  bibtex_show = {true},
+  pdf = {https://par.nsf.gov/servlets/purl/10292303},
+  abstract = {Whiteboard lecture videos are summarized by detecting handwritten content regions and comparing their feature representations to find unique content. The method handles occluded, growing, and disappearing handwriting, and produces both key content and keyframes. Weighted spatio-temporal conflict minimization is used to segment the lecture.}
+}
+
+@inproceedings{giegerich2022undercarriage,
+  title = {Automated Classification of Defected Images by Means of Machine Learning for Improved Analysis of Vehicle Undercarriages},
+  author = {Giegerich, W. V. and Stone, Alexander and Forte, III, L. and Schneider, P. J. and Oh, K. W.},
+  booktitle = {TechConnect Briefs},
+  year = {2022},
+  abbr = {TechConnect},
+  bibtex_show = {true},
+  html = {https://briefs.techconnect.org/papers/automated-classification-of-defected-images-by-means-of-machine-learning-for-improved-analysis-of-vehicle-undercarriages/},
+  pdf = {https://briefs.techconnect.org/wp-content/volumes/TCB2022/pdf/268.pdf},
+  abstract = {A ResNet classifier labels defective vehicle-undercarriage images so that poor captures can be filtered before later inspection models run, and so that the capture process can give feedback at acquisition time.}
 }
 
 @inproceedings{kota2018automated,
-  title={Automated detection of handwritten whiteboard content in lecture videos for summarization},
-  author={Kota, Bhargava Urala and Davila, Kenny and Stone, Alexander and Setlur, Srirangaraj and Govindaraju, Venu},
-  booktitle={2018 16th International Conference on Frontiers in Handwriting Recognition (ICFHR)},
-  pages={19--24},
-  year={2018},
-  organization={IEEE}
+  title = {Automated Detection of Handwritten Whiteboard Content in Lecture Videos for Summarization},
+  author = {Kota, Bhargava Urala and Davila, Kenny and Stone, Alexander and Setlur, Srirangaraj and Govindaraju, Venu},
+  booktitle = {2018 16th International Conference on Frontiers in Handwriting Recognition (ICFHR)},
+  pages = {19--24},
+  year = {2018},
+  organization = {IEEE},
+  doi = {10.1109/ICFHR-2018.2018.00013},
+  abbr = {ICFHR},
+  bibtex_show = {true},
+  pdf = {https://par.nsf.gov/servlets/purl/10113238},
+  abstract = {A scene-text detector is adapted to find handwritten text, math, and sketches on a whiteboard, including content occluded by the lecturer. The detections are used to summarize the lecture. The work also released timestamped bounding-box annotations for the AccessMath dataset.}
 }
 
-
-@article{urala2019generalized,
-  title={Generalized framework for summarization of fixed-camera lecture videos by detecting and binarizing handwritten content},
-  author={Urala Kota, Bhargava and Davila, Kenny and Stone, Alexander and Setlur, Srirangaraj and Govindaraju, Venu},
-  journal={International Journal on Document Analysis and Recognition (IJDAR)},
-  volume={22},
-  pages={221--233},
-  year={2019},
-  publisher={Springer}
+@inproceedings{stone2019postprocess,
+  title = {Post-Processing Effects on 3D Dynamic Models Created from Additive Manufacturing},
+  author = {Fedorishin, Dennis and Stone, Alexander and Eadie, N. and Christie, L. and Schneider, P. and Oh, K.},
+  booktitle = {TechConnect Briefs},
+  pages = {123--126},
+  year = {2019},
+  abbr = {TechConnect},
+  bibtex_show = {true},
+  html = {https://briefs.techconnect.org/papers/post-processing-effects-on-3d-dynamic-models-created-from-additive-manufacturing/},
+  pdf = {https://briefs.techconnect.org/wp-content/volumes/TCB2019/pdf/356.pdf},
+  note = {Alexander Stone and Dennis Fedorishin contributed equally},
+  abstract = {Automated post-processing of 3D-printed dynamic models reduces surface roughness and moving resistance. On a printed engine and gearbox, post-processing cut surface roughness by 38 percent and substantially reduced static and moving resistance.}
 }
 
-
-@inproceedings{kota2021automated,
-  title={Automated whiteboard lecture video summarization by content region detection and representation},
-  author={Kota, Bhargava Urala and Stone, Alexander and Davila, Kenny and Setlur, Srirangaraj and Govindaraju, Venu},
-  booktitle={2020 25th International Conference on Pattern Recognition (ICPR)},
-  pages={10704--10711},
-  year={2021},
-  organization={IEEE}
+@inproceedings{christie2019facemasks,
+  title = {Additive Manufacturing of 3D Face Masks for Biometric Spoofing},
+  author = {Christie, L. and Mancuso, K. and Fedorishin, Dennis and Schneider, P. and Stone, Alexander and Oh, K.},
+  booktitle = {TechConnect Briefs},
+  pages = {147--150},
+  year = {2019},
+  abbr = {TechConnect},
+  bibtex_show = {true},
+  html = {https://briefs.techconnect.org/papers/additive-manufacturing-of-3d-face-masks-for-biometric-spoofing/},
+  pdf = {https://briefs.techconnect.org/wp-content/volumes/TCB2019/pdf/409.pdf},
+  abstract = {3D-printed and cast face masks, built from a facial photograph with a volumetric regression network, are used to study spoofing of a face-biometric liveness check.}
 }

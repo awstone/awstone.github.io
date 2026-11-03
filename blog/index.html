@@ -94,6 +94,9 @@ pagination:
     <hr>
   {% endif %}
 
+  {% if paginator.posts == nil or paginator.posts.size == 0 %}
+  <p>No posts yet.</p>
+  {% else %}
   <ul class="post-list">
     {% for post in paginator.posts %}
 
@@ -164,5 +167,6 @@ pagination:
   </ul>
 
   {% include pagination.html %}
+  {% endif %}
 
 </div>
